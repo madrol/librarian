@@ -1,0 +1,77 @@
+html{
+    width:100%;
+    height: 100%;
+    background-image: url("https://digitalmarketing.blob.core.windows.net/6270/skins/DrumAndQuill/images/background1.jpg");
+    background-size: 100% 100%;
+
+    text-shadow: 0px 0px 10px #000000;
+}
+a{
+	text-decoration: none;
+}
+#menu{
+	float: left;
+	margin-top: 5%;
+	margin-left: 5%;
+}
+
+#menu a{
+	color: black;
+	font-size: 20pt;
+	padding: 18px;
+}
+
+.menuPoint {
+	display: inline-block;
+}
+.menuPoint:after {
+	content: '';
+	display: block;
+	height: 2px;
+	width: 0;
+	
+	transition: width 2s, background-color 2s;
+}
+.menuPoint:hover:after {
+	width: 100%;
+	background: black;
+}
+
+#home, #services{
+	cursor:pointer;
+}
+
+#serviceSelection{
+	display: none;
+	position: absolute;
+	width: 30%;
+	height: 100%;
+	right: 0;
+	top: 0;
+	background-color: rgba(0, 0, 0, 0.7);
+	z-index: 1;
+}
+#serviceSelection div{
+	border: 2pt solid white;
+	background-color: black;
+	
+	margin-top: 20px;
+	margin-left: auto; 
+    margin-right: auto;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: 250px;
+	
+	text-align: center;
+	
+	border-radius: 20px;
+	transition: box-shadow 1s;
+}
+
+#serviceSelection div a{
+	color:white;
+}
+
+#serviceSelection div:hover{
+	box-shadow: 0px 0px 50px 10px red;
+}

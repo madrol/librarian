@@ -1,0 +1,18 @@
+#queryList{
+	position: absolute;
+	border: 1pt solid black;
+	background-color: rgba(255, 255, 255, 0.3);
+	top: 30%;
+	left: 20%;
+	min-width: 40%;
+	
+	border-collapse: collapse;
+	text-align: center;
+}
+
+#queryList tr:nth-child(even){
+    background-color: rgba(0, 0, 0, 0.3);
+}
+#queryList tr:hover{
+	background-color: yellow;
+}

@@ -1,0 +1,29 @@
+.form{
+	background-color: rgba(255, 255, 255, 0.8);
+	position: absolute;
+	min-width: 25%;
+
+	top: 30%;
+	left: 20%;
+	border: 1pt solid black;
+	padding: 10px;
+}
+#updateForm{
+	min-height: 40%;
+}
+#createForm{
+	min-height: 30%;
+}
+
+[type=button]{
+	height: 50%;
+	width: 30%;
+	
+	position: absolute;
+	top: 25%;
+	right: 5%;
+}
+
+[name=year], [name=day]{
+	width: 15%;
+}
